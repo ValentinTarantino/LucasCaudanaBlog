@@ -1,0 +1,14 @@
+:root {
+  --color-lab-dark: #0D1117;
+  --color-surface: rgba(22, 27, 34, 0.85); 
+  --accent-purple: #9370DB;
+  --text-primary: #E6EDF3;
+  --text-secondary: #8B949E;
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-lab-dark);
+  color: var(--text-primary);
+}

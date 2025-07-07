@@ -1,0 +1,6 @@
+.footer-main {
+    background-color: transparent;
+    color: var(--text-primary);
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+}
