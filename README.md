@@ -35,7 +35,7 @@ This is a freelance project for a modern and complete web application, custom-bu
 
 ---
 
-## 🇪🇸 Versión en Español
+## Versión en Español
 
 Este es un proyecto freelance de una aplicación web moderna y completa, desarrollada a medida para **Lucas Caudana**, un estudiante de periodismo deportivo. El objetivo era crear una plataforma personal, elegante y altamente funcional donde pudiera gestionar y presentar sus noticias de una manera visualmente impactante y dinámica.
 
