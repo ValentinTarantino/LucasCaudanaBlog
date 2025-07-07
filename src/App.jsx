@@ -8,7 +8,7 @@ import { collection, onSnapshot, addDoc, updateDoc, deleteDoc, doc, query, order
 
 // Componentes
 import LoadingScreen from './components/LoadingScreen/LoadingScreen';
-import AuroraBackground from './components/aurorabackground/aurorabackground.jsx';
+import Background from './components/background/background.jsx';
 import Header from './components/Header/Header';
 import NewsGrid from './components/NewsGrid/NewsGrid';
 import NewsFormModal from './components/NewsFormModal/NewsFormModal';
@@ -131,7 +131,7 @@ function App() {
   if (!user) {
     return (
       <>
-        <AuroraBackground />
+      <Background />
         <DragDropContext onDragEnd={onDragEnd}>
           <div className="app-container">
             <Header clientName="Blog Deportivo | Modo Portafolio">
@@ -159,7 +159,7 @@ function App() {
   // MODO ADMINISTRADOR (si hay usuario)
   return (
     <>
-      <AuroraBackground />
+      <Background />
       <DragDropContext onDragEnd={onDragEnd}>
         <div className="app-container">
           <Header clientName={`Blog de ${user.displayName}`}>

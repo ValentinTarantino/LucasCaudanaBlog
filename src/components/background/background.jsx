@@ -1,4 +1,4 @@
-import './aurorabackground.css';
+import './background.css';
 
 const AuroraBackground = () => {
     return (

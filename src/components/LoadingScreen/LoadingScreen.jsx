@@ -1,5 +1,5 @@
 import './LoadingScreen.css';
-import AuroraBackground from '../aurorabackground/aurorabackground';
+import AuroraBackground from '../background/background';
 
 const LoadingScreen = () => {
     return (
