@@ -8,7 +8,7 @@ import { collection, onSnapshot, addDoc, updateDoc, deleteDoc, doc, query, order
 
 // Componentes
 import LoadingScreen from './components/LoadingScreen/LoadingScreen';
-import AuroraBackground from './components/Aurorabackground/AuroraBackground.jsx';
+import AuroraBackground from './components/Aurorabackground/Aurorabackground.jsx';
 import Header from './components/Header/Header';
 import NewsGrid from './components/NewsGrid/NewsGrid';
 import NewsFormModal from './components/NewsFormModal/NewsFormModal';
