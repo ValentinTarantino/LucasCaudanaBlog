@@ -11,12 +11,15 @@
 
 .header-main .navbar-brand {
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    transition: color 0.3s ease, font-size 0.3s ease;
+    transition: color 0.3s ease;
     cursor: default;
+  /* Añadimos un pequeño margen en móvil para separarlo del botón */
+    margin-bottom: 0.75rem; 
 }
+
 
 .header-main .navbar-brand:hover {
     color: #B9BBBE;
@@ -24,6 +27,15 @@
 
 @media (min-width: 768px) {
     .header-main .navbar-brand {
-        font-size: 1.5rem;
+    margin-bottom: 0;
+        padding-left: 1rem;
     }
 }
+
+@media (max-width: 430px) {
+    .header-main .navbar-brand {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    }
+}
+
