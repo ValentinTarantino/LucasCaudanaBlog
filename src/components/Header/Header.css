@@ -1,12 +1,29 @@
+.header-main {
+    background-color: rgba(13, 17, 23, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1.25rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 .header-main .navbar-brand {
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, font-size 0.3s ease;
     cursor: default;
 }
 
 .header-main .navbar-brand:hover {
     color: #B9BBBE;
+}
+
+@media (min-width: 768px) {
+    .header-main .navbar-brand {
+        font-size: 1.5rem;
+    }
 }
